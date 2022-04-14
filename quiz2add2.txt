@@ -1,0 +1,1 @@
+#include <stdio.h>2int main(void) {2    char c;22    while (scanf("%c",&c) != EOF) {22      if (c == '\n'){2         printf("%s","2");22      }22      else{2         printf("%c",c);  22      }2    }22    return 0;22} // main2
